@@ -85,7 +85,7 @@ export async function updateProjectByIdAPi({formData, projectId}: ProjectApi){
 export async function deleteProjectByIdAPi(id: Project['_id']){
     try {
         const { data } = await api.delete<string>(`/projects/${id}`)
-        
+
         return data
 
     } catch (error) {

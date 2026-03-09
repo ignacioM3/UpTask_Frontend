@@ -53,14 +53,14 @@ export default function DashboardView() {
                       {project.manager === user?._id ? (
                         <p
                           className="font-bold text-xs uppercase bg-indigo-50 text-indigo-500 border-2 border-indigo-500
-                      rounded-lg block py-1 px-5 cursor-pointer"
+                      rounded-lg block py-1 px-5 cursor-pointer w-[100px] text-center"
                         >
                           Manager
                         </p>
                       ) : (
                         <p
                           className="font-bold text-xs uppercase bg-green-50 text-green-500 border-2 border-green-500
-                      rounded-lg block py-1 px-5 cursor-pointer"
+                      rounded-lg block py-1 px-5 cursor-pointer w-[200px] text-center"
                         >
                           Miembro del Equipo
                         </p>
